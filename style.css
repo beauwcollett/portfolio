@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+} 
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+} */
+
+.landing{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #145374;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#mypic{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    border: 0.5rem double #00334e;
+}
+
+.WebDev{
+    background-color: #ee6f57;
+    color: white;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    transform: skew(-10deg);
+    text-shadow: 1.5px 1.5px gray;
+    border-bottom: 1.5px solid white;
+    letter-spacing: 2px;
+}
+.name{
+    background-color: #ee6f57;
+    color: white;
+    padding: 10px;
+    margin-top: 1.5rem;
+    transform: skew(-10deg);
+    text-shadow: 1.5px 1.5px gray;
+    border-bottom: 1.5px solid white;
+}
+
+#landProLink{
+    color:black;
+    background-color: #f6f5f5;
+    border: 0.5rem double #00334e;
+    margin-top: .5rem;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.nav{
+    height: 3rem;
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav.active{
+    background-color: #145374;
+}
+
+.innav{
+    text-align: right;
+    padding-top: 16px;
+}
+
+.navmen{
+    color: white;
+    text-align: right;
+    padding-right: 16px;
+    
+}
+
+.skills{
+    background-color: #f6f5f5;
+    height: 800px;
+    background-image: url(tess.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
